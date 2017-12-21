@@ -5,8 +5,8 @@ INSTALLATION:
 
 1. npm install basic-language-detector
 2. Code Snippet:
-const basicLangDetector = require('basic-language-detector');
-basicLangDetector.getLanguage('Hello');
+> const basicLangDetector = require('basic-language-detector');
+> basicLangDetector.getLanguage('Hello');
 
 SUPPORTED LANGUAGES:
 
@@ -28,44 +28,44 @@ SUPPORTED LANGUAGES:
 16. Georgian
 17. Cherokee and many more..
 
-EXAMPLE COMMANDS TO RUN:
+USAGE EXAMPLES:
 
 1. In Devanagari:
-$ node index.js जागृती
+> node index.js जागृती
 > Hindi | Marathi | Sanskrit | Devanagari
 
 2. In English:
-$ node index.js Jagrutee
+> node index.js Jagrutee
 > English | Spanish | Basic Latin
 
 3. In Gujarati:
-$ node index.js જાગૃતી
+> node index.js જાગૃતી
 > Gujarati
 
 4. In Tamil:
-$ node index.js ஜஃருடீ
+> node index.js ஜஃருடீ
 > Tamil
 
 5. In Telugu:
-$ node index.js జాగ్రుతే
+> node index.js జాగ్రుతే
 > Telugu
 
 6. In Malayalam:
-$ node index.js ജാഗ്രത
+> node index.js ജാഗ്രത
 > Malayalam
 
 7. In Japanese:
-$ node index.js じゃgるてえ
+> node index.js じゃgるてえ
 > Japanese | Hiragana
 
 8. In Hebrew:
-$ node index.js ונביאים 
+> node index.js ונביאים 
 > Hebrew
 
 9. In Arabic:
-$ node index.js ثقففغب
+> node index.js ثقففغب
 > Arabic
 
 10. In Bengali:
-$ node index.js কখগঘঘঘঘ
+> node index.js কখগঘঘঘঘ
 > Bengali
