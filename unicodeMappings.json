@@ -1,6 +1,6 @@
 {
   "basicLatin": {
-    "language": "English | Basic Latin",
+    "language": "English | Spanish | Basic Latin",
     "minUnicode": "0020",
     "maxUnicode": "007F"
   },
@@ -75,7 +75,7 @@
     "maxUnicode": "07BF"
   },
   "devanagari": {
-    "language": "Hindi | Marathi | Devanagari",
+    "language": "Hindi | Marathi | Sanskrit | Devanagari",
     "minUnicode": "0900",
     "maxUnicode": "097F"
   },
@@ -380,7 +380,7 @@
     "maxUnicode": "303F"
   },
   "hiragana": {
-    "language": "Hiragana",
+    "language": "Japanese | Hiragana",
     "minUnicode": "3040",
     "maxUnicode": "309F"
   },

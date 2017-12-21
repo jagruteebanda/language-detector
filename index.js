@@ -9,8 +9,6 @@ for (var i = 0; i < detectText.length; i++) {
   const charCode = detectText.charCodeAt(i);
   async.map(unicodeMappingsKeys, function (unicodeMappingsKey, unicodeMappingsKeysCallback) {
     if (unicodeMappingsKey) {
-      // console.log(parseInt(`0x${charCode}`));
-      // console.log(parseInt(`0x${unicodeMappings[unicodeMappingsKey].minUnicode}`), unicodeMappings[unicodeMappingsKey].minUnicode);
       if (charCode > parseInt(`0x${unicodeMappings[unicodeMappingsKey].minUnicode}`) && charCode < parseInt(`0x${unicodeMappings[unicodeMappingsKey].maxUnicode}`)) {
         probability = probability + 1;
         language = unicodeMappings[unicodeMappingsKey].language;
