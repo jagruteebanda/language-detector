@@ -1,0 +1,26 @@
+{
+  "name": "language-detector",
+  "version": "1.0.0",
+  "description": "Detects language by inspecting characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js 'Jagrutee'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagruteebanda/language-detector.git"
+  },
+  "keywords": [
+    "language",
+    "detection"
+  ],
+  "author": "Jagrutee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagruteebanda/language-detector/issues"
+  },
+  "homepage": "https://github.com/jagruteebanda/language-detector#readme",
+  "dependencies": {
+    "async": "^2.6.0"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "basicLatin": {
-    "language": "Basic Latin",
+    "language": "English | Basic Latin",
     "minUnicode": "0020",
     "maxUnicode": "007F"
   },
@@ -75,7 +75,7 @@
     "maxUnicode": "07BF"
   },
   "devanagari": {
-    "language": "Devanagari",
+    "language": "Hindi | Marathi | Devanagari",
     "minUnicode": "0900",
     "maxUnicode": "097F"
   },
@@ -130,289 +130,289 @@
     "maxUnicode": "0E7F"
   },
   "lao": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Lao",
+    "minUnicode": "0E80",
+    "maxUnicode": "0EFF"
   },
   "tibetan": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Tibetan",
+    "minUnicode": "0F00",
+    "maxUnicode": "0FFF"
   },
   "myanmar": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Myanmar",
+    "minUnicode": "1000",
+    "maxUnicode": "109F"
   },
   "georgian": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Georgian",
+    "minUnicode": "10A0",
+    "maxUnicode": "10FF"
   },
   "hangulJamo": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Hangul Jamo",
+    "minUnicode": "1100",
+    "maxUnicode": "11FF"
   },
   "ethiopic": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Ethiopic",
+    "minUnicode": "1200",
+    "maxUnicode": "137F"
   },
   "cherokee": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Cherokee",
+    "minUnicode": "13A0",
+    "maxUnicode": "13FF"
   },
   "unifiedCanadianAboriginal": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Unified Canadian Aboriginal",
+    "minUnicode": "1400",
+    "maxUnicode": "167F"
   },
   "ogham": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Ogham",
+    "minUnicode": "1680",
+    "maxUnicode": "169F"
   },
   "runic": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Runic",
+    "minUnicode": "16A0",
+    "maxUnicode": "16FF"
   },
   "tagalog": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Tagalog",
+    "minUnicode": "1700",
+    "maxUnicode": "171F"
   },
   "hanunoo": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Hanunoo",
+    "minUnicode": "1720",
+    "maxUnicode": "171F"
   },
   "buhid": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Buhid",
+    "minUnicode": "1740",
+    "maxUnicode": "175F"
   },
   "tagbanwa": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Tagbanwa",
+    "minUnicode": "1760",
+    "maxUnicode": "177F"
   },
   "khmer": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Khmer",
+    "minUnicode": "1780",
+    "maxUnicode": "17FF"
   },
   "mongolian": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Mongolian",
+    "minUnicode": "1800",
+    "maxUnicode": "18AF"
   },
   "limbu": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Limbu",
+    "minUnicode": "1900",
+    "maxUnicode": "194F"
   },
   "taiLe": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Tai Le",
+    "minUnicode": "1950",
+    "maxUnicode": "197F"
   },
   "khmerSymbols": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Khmer Symbols",
+    "minUnicode": "19E0",
+    "maxUnicode": "19FF"
   },
   "phoneticExtensions": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Phonetic Extensions",
+    "minUnicode": "1D00",
+    "maxUnicode": "1D7F"
   },
   "latinExtendedAdditional": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Latin Extended Additional",
+    "minUnicode": "1E00",
+    "maxUnicode": "1EFF"
   },
   "greekExtended": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Greek Extended",
+    "minUnicode": "1F00",
+    "maxUnicode": "1FFF"
   },
   "generalPunctuation": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "General Punctuation",
+    "minUnicode": "2000",
+    "maxUnicode": "206F"
   },
-  "superScripts&SubScripts": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+  "superscripts&Subscripts": {
+    "language": "Superscripts & Subscipts",
+    "minUnicode": "2070",
+    "maxUnicode": "209F"
   },
   "currencySymbols": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Currency Symbols",
+    "minUnicode": "20A0",
+    "maxUnicode": "20CF"
   },
   "combiningDiacriticalMarksForSymbols": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Combining Diacritical Marks For Symbols",
+    "minUnicode": "20D0",
+    "maxUnicode": "20FF"
   },
   "letterLikeSymbols": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Letter Like Symbols",
+    "minUnicode": "2100",
+    "maxUnicode": "214F"
   },
   "numberForms": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Number Forms",
+    "minUnicode": "2150",
+    "maxUnicode": "218F"
   },
   "arrows": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Arrows",
+    "minUnicode": "2190",
+    "maxUnicode": "21FF"
   },
   "mathematicalOperators": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Mathematical Operators",
+    "minUnicode": "2200",
+    "maxUnicode": "22FF"
   },
   "miscellaneousTechnical": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Miscellaneous Technical",
+    "minUnicode": "2300",
+    "maxUnicode": "23FF"
   },
   "controlPictures": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Control Pictures",
+    "minUnicode": "2400",
+    "maxUnicode": "243F"
   },
   "opticalCharacterRecognition": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Optical Character Recognition",
+    "minUnicode": "2440",
+    "maxUnicode": "245F"
   },
   "enclosedAlphanumerics": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Enclosed Alphanumerics",
+    "minUnicode": "2460",
+    "maxUnicode": "24FF"
   },
   "boxDrawing": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Box Drawing",
+    "minUnicode": "2500",
+    "maxUnicode": "257F"
   },
   "blockElements": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Block Elements",
+    "minUnicode": "2580",
+    "maxUnicode": "259F"
   },
   "geometricShapes": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Geometric Shapes",
+    "minUnicode": "25A0",
+    "maxUnicode": "25FF"
   },
   "miscellaneousSymbols": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Miscellaneous Symbols",
+    "minUnicode": "2600",
+    "maxUnicode": "26FF"
   },
   "dingBats": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Ding Bats",
+    "minUnicode": "2700",
+    "maxUnicode": "27BF"
   },
   "miscellaneousMathematicalSymbolsA": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Miscellaneous Mathematical Symbols A",
+    "minUnicode": "27C0",
+    "maxUnicode": "27EF"
   },
   "supplementalArrowsA": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Supplemental Arrows A",
+    "minUnicode": "27F0",
+    "maxUnicode": "27FF"
   },
   "braillePatterns": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Braille Patterns",
+    "minUnicode": "2800",
+    "maxUnicode": "28FF"
   },
   "supplementalArrowsB": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Supplemental Arrows B",
+    "minUnicode": "2900",
+    "maxUnicode": "297F"
   },
   "miscellaneousMathematicalSymbolsB": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Miscellaneous Mathematical Symbols B",
+    "minUnicode": "2980",
+    "maxUnicode": "29FF"
   },
   "supplementalMathematicalOperators": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Supplemental Mathematical Operators",
+    "minUnicode": "2A00",
+    "maxUnicode": "2AFF"
   },
   "miscellaneousSymbolsAndArrows": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Miscellaneous Symbols And Arrows",
+    "minUnicode": "2B00",
+    "maxUnicode": "2BFF"
   },
   "cjkRadicalsSupplement": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "CJK Radicals Supplement",
+    "minUnicode": "2E80",
+    "maxUnicode": "2EFF"
   },
   "kangxiRadicalsIdeographic": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Kangxi Radicals Ideographic",
+    "minUnicode": "2F00",
+    "maxUnicode": "2FDF"
   },
   "descriptionCharacters": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Description Characters",
+    "minUnicode": "2FF0",
+    "maxUnicode": "2FFF"
   },
   "cjkSymbolsAndPunctuation": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "CJK Symbols And Punctuation",
+    "minUnicode": "3000",
+    "maxUnicode": "303F"
   },
   "hiragana": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Hiragana",
+    "minUnicode": "3040",
+    "maxUnicode": "309F"
   },
   "katakana": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Katakana",
+    "minUnicode": "30A0",
+    "maxUnicode": "30FF"
   },
   "bopomofo": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Bopomofo",
+    "minUnicode": "3100",
+    "maxUnicode": "312F"
   },
   "hangulCompatibilityJamo": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Hangul Compatibility Jamo",
+    "minUnicode": "3130",
+    "maxUnicode": "318F"
   },
   "bopomofoExtended": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Bopomofo Extended",
+    "minUnicode": "31A0",
+    "maxUnicode": "31BF"
   },
   "katakanaPhoneticExtensions": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Katakana Phonetic Extensions",
+    "minUnicode": "31F0",
+    "maxUnicode": "31FF"
   },
   "enclosedCJKLettersAndMonths": {
-    "language": "",
-    "minUnicode": "",
-    "maxUnicode": ""
+    "language": "Enclosed CJK Letters And Months",
+    "minUnicode": "3200",
+    "maxUnicode": "32FF"
   },
   "cjkCompatibility": {
     "language": "CJK Compatibility",
@@ -603,5 +603,5 @@
     "language": "Tags",
     "minUnicode": "E0000",
     "maxUnicode": "E007F"
-  },
+  }
 }
