@@ -1,5 +1,5 @@
 {
-  "name": "language-detector",
+  "name": "basic-language-detector",
   "version": "1.0.0",
   "description": "Detects language by inspecting characters",
   "main": "index.js",
