@@ -1,15 +1,34 @@
 ﻿# language-detector
-To detect language by inspecting characters
+To detect language by inspecting characters in piece of text.
 
-FILES:
+INSTALLATION:
 
-1. index.js
-   => To detect language of text
+1. npm install basic-language-detector
+2. Code Snippet:
+const basicLangDetector = require('basic-language-detector');
+basicLangDetector.getLanguage('Hello');
 
-2. unicodeMappings.json
-   => json object with mappings for languages and their unicodes
+SUPPORTED LANGUAGES:
 
-COMMAND TO RUN:
+1. English | Spanish | French (Basic Latin)
+2. Hindi | Marathi | Sanskrit (Devanagari)
+3. Malayalam
+4. Tamil
+5. Telugu
+6. Gujarati
+7. Hebrew
+8. Japanese (Hiragana)
+9. Armenian
+10. Arabic
+11. Syriac
+12. Bengali
+13. Oriya
+14. Kannada
+15. Myanmar
+16. Georgian
+17. Cherokee and many more..
+
+EXAMPLE COMMANDS TO RUN:
 
 1. In Devanagari:
 $ node index.js जागृती
@@ -43,4 +62,10 @@ $ node index.js じゃgるてえ
 $ node index.js ונביאים 
 > Hebrew
 
-and many more..
+9. In Arabic:
+$ node index.js ثقففغب
+> Arabic
+
+10. In Bengali:
+$ node index.js কখগঘঘঘঘ
+> Bengali
