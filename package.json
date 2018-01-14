@@ -1,6 +1,6 @@
 {
-  "name": "basic-language-detector",
-  "version": "1.0.0",
+  "name": "language-identifier",
+  "version": "1.0.1",
   "description": "Detects language by inspecting characters",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/jagruteebanda/language-detector/issues"
   },
-  "homepage": "https://github.com/jagruteebanda/language-detector#readme",
-  "dependencies": {
-    "async": "^2.6.0"
-  }
+  "homepage": "https://github.com/jagruteebanda/language-detector#readme"
 }
