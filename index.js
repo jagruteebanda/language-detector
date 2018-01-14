@@ -7,7 +7,7 @@ function getLanguage(detectText) {
   if (detectText && detectText.length > 0) {
     for (var i = 0; i < detectText.length; i++) {
       const charCode = detectText.charCodeAt(i);
-      unicodeMappingsKeys.map((unicodeMappingsKey) => {
+      unicodeMappingsKeys.forEach((unicodeMappingsKey) => {
         if (unicodeMappingsKey) {
           if (charCode > parseInt(`0x${unicodeMappings[unicodeMappingsKey].minUnicode}`) && charCode < parseInt(`0x${unicodeMappings[unicodeMappingsKey].maxUnicode}`)) {
             if (i === 0) {
@@ -19,7 +19,7 @@ function getLanguage(detectText) {
               });
             } else {
               let isExist = 0;
-              detectedLanguagesArray.map((detectedLanguage) => {
+              detectedLanguagesArray.forEach((detectedLanguage) => {
                 if (detectedLanguage.language === unicodeMappings[unicodeMappingsKey].language) {
                   isExist = 1;
                   detectedLanguage.charIndexes.push(i);
