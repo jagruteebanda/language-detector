@@ -1,6 +1,6 @@
 const unicodeMappings = require('./unicodeMappings.json');
 
-function getLanguage(detectText) {
+function identify(detectText) {
   const unicodeMappingsKeys = Object.keys(unicodeMappings);
   let probability = 0;
   let detectedLanguagesArray = [];
@@ -71,5 +71,5 @@ function getLanguage(detectText) {
 }
 
 module.exports = {
-  getLanguage
+  identify
 };
