@@ -1,8 +1,11 @@
-const async = require('async');
 const unicodeMappings = require('./unicodeMappings.json');
 
-if (process.argv[2].length > 0) {
-  console.log(getLanguage(process.argv[2]));;
+if (process.argv[2]) {
+  if (process.argv[2].length > 0) {
+    console.log(getLanguage(process.argv[2]));
+  }
+} else {
+  console.log("Please enter text snippet");
 }
 
 function getLanguage(detectText) {
@@ -11,7 +14,7 @@ function getLanguage(detectText) {
   let detectedLanguage = '';
   for (var i = 0; i < detectText.length; i++) {
     const charCode = detectText.charCodeAt(i);
-    async.map(unicodeMappingsKeys, function (unicodeMappingsKey, unicodeMappingsKeysCallback) {
+    unicodeMappingsKeys.map((unicodeMappingsKey) => {
       if (unicodeMappingsKey) {
         if (charCode > parseInt(`0x${unicodeMappings[unicodeMappingsKey].minUnicode}`) && charCode < parseInt(`0x${unicodeMappings[unicodeMappingsKey].maxUnicode}`)) {
           probability = probability + 1;
