@@ -8,7 +8,7 @@ To detect language by inspecting characters in text input. The module takes text
 ```javascript
 // Replace process.argv[2] with text you want to identify the language for
 const languageIdentifier = require('language-identifier');
-const language = Identifier.getLanguage(process.argv[2]);
+const language = languageIdentifier.getLanguage(process.argv[2]);
 console.log('Language Identified: ', language);
 ```
 
