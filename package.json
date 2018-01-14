@@ -12,9 +12,11 @@
   },
   "keywords": [
     "language",
-    "detection"
+    "detection",
+    "detector",
+    "locale"
   ],
-  "author": "Jagrutee",
+  "author": "jagrutee234",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jagruteebanda/language-detector/issues"

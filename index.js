@@ -1,11 +1,5 @@
 const unicodeMappings = require('./unicodeMappings.json');
 
-if (process.argv[2]) {
-  if (process.argv[2].length > 0) {
-    getLanguage(process.argv[2]);
-  }
-}
-
 function getLanguage(detectText) {
   const unicodeMappingsKeys = Object.keys(unicodeMappings);
   let probability = 0;
@@ -44,14 +38,13 @@ function getLanguage(detectText) {
       }
     });
   }
-  detectedLanguagesArray.sort((a, b) => {
+  detectedLanguagesArray.sort((a, b) => { // sorting according to the priority
     if (a.score < b.score) {
       return 1;
     }
     if (a.score > b.score) {
       return -1;
     }
-    // a must be equal to b
     return 0;
   });
   if (detectedLanguagesArray.length > 0) {

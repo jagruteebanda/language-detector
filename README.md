@@ -1,62 +1,74 @@
 # language-identifier
+To detect language by inspecting characters in text input. The module takes text as input and identifies the best language match for the same.
 
-To detect language by inspecting characters in text snippet. The module takes text snippet as input and probables the best match for the identified language.
-
-### Installing
+### Installation:
 
 * npm install language-identifier
 * Code Snippet:
 ```javascript
+// Replace process.argv[2] with text you want to identify the language for
 const languageIdentifier = require('language-identifier');
-const language = Identifier.getLanguage('Hello World!');
+const language = Identifier.getLanguage(process.argv[2]);
 console.log('Language Identified: ', language);
 ```
 
-### Examples:
+### Basic Usage Examples:
 
 * In Devanagari:
 ```
-$ node index.js जागृती
+$ node index.js "नमस्कार"
 Hindi | Marathi | Sanskrit | Devanagari
 ```
 
 * In English:
 ```
-$ node index.js "Hello World"
+$ node index.js "Incredible India!"
 English | Spanish | Basic Latin
 ```
 
 * In Gujarati:
 ```
-$ node index.js જાગૃતી
+$ node index.js "જાગૃતી"
 Gujarati
+```
+
+* In Tamil:
+```
+$ node index.js "ஜஃருடீ"
+Tamil
 ```
 
 * In Malayalam:
 ```
-$ node index.js ജാഗ്രത
+$ node index.js "ജാഗ്രത"
 Malayalam
 ```
 
 * In Japanese:
 ```
-$ node index.js じゃgるてえ
+$ node index.js "じゃgるてえ"
 Japanese | Hiragana
 ```
 
 * In Hebrew:
 ```
-$ node index.js ונביאים 
+$ node index.js "ונביאים"  
 Hebrew
 ```
 
 * In Arabic:
 ```
-$ node index.js ثقففغب
+$ node index.js "ثقففغب"
 Arabic
 ```
 
-### Supported Languages
+* In Bengali:
+```
+$ node index.js "কখগঘঘঘঘ"
+Bengali
+```
+
+### Supported Languages:
 
 * English | Spanish | French (Basic Latin)
 * Hindi | Marathi | Sanskrit (Devanagari)
