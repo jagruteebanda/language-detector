@@ -8,7 +8,7 @@ To detect language by inspecting characters in text snippet. The module takes te
 2. Code Snippet:
 ```javascript
 const languageIdentifier = require('language-identifier');
-languageIdentifier.getLanguage('Hello');
+languageIdentifier.getLanguage('Hello World!');
 ```
 
 ### Examples:
