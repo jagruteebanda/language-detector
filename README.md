@@ -1,76 +1,96 @@
-# language-identifier
+#language-detector
+To detect language by inspecting characters in text input.
 
-To detect language by inspecting characters in text snippet. The module takes text snippet as input and probables the best match for the identified language.
+###INSTALLATION:
 
-### Installing
-
-1. npm install language-identifier
+1. npm install basic-language-detector
 2. Code Snippet:
 ```javascript
-const languageIdentifier = require('language-identifier');
-languageIdentifier.getLanguage('Hello World!');
+const basicLangDetector = require('basic-language-detector');
+const language = basicLangDetector.getLanguage('Hello');
+console.log("Mmm.. looks like you used ", language);
 ```
 
-### Examples:
+###USAGE EXAMPLES:
 
-1. In Devanagari:
+In Devanagari:
 ```
-$ node index.js जागृती
+node index.js जागृती
 Hindi | Marathi | Sanskrit | Devanagari
 ```
 
-2. In English:
+In English:
 ```
-$ node index.js "Hello World"
+node index.js Jagrutee
 English | Spanish | Basic Latin
 ```
 
-3. In Gujarati:
+In Gujarati:
 ```
-$ node index.js જાગૃતી
+node index.js જાગૃતી
 Gujarati
 ```
 
-4. In Malayalam:
+In Tamil:
 ```
-$ node index.js ജാഗ്രത
+node index.js ஜஃருடீ
+Tamil
+```
+
+In Telugu:
+```
+node index.js జాగ్రుతే
+Telugu
+```
+
+In Malayalam:
+```
+node index.js ജാഗ്രത
 Malayalam
 ```
 
-5. In Japanese:
+In Japanese:
 ```
-$ node index.js じゃgるてえ
+node index.js じゃgるてえ
 Japanese | Hiragana
 ```
 
-6. In Hebrew:
+In Hebrew:
 ```
-$ node index.js ונביאים 
+node index.js ונביאים  
 Hebrew
 ```
 
-7. In Arabic:
+In Arabic:
 ```
-$ node index.js ثقففغب
+node index.js ثقففغب
 Arabic
 ```
 
-### Supported Languages
+In Bengali:
+```
+node index.js কখগঘঘঘঘ
+Bengali
+```
 
-1. English | Spanish | French (Basic Latin)
-2. Hindi | Marathi | Sanskrit (Devanagari)
-3. Malayalam
-4. Tamil
-5. Telugu
-6. Gujarati
-7. Hebrew
-8. Japanese (Hiragana)
-9. Armenian
-10. Arabic
-11. Syriac
-12. Bengali
-13. Oriya
-14. Kannada
-15. Myanmar
-16. Georgian
-17. Cherokee and many more..
+###SUPPORTED LANGUAGES:
+
+```
+English | Spanish | French (Basic Latin)
+Hindi | Marathi | Sanskrit (Devanagari)
+Malayalam
+Tamil
+Telugu
+Gujarati
+Hebrew
+Japanese (Hiragana)
+Armenian
+Arabic
+Syriac
+Bengali
+Oriya
+Kannada
+Myanmar
+Georgian
+Cherokee and many more..
+```

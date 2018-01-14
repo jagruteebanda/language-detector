@@ -1,6 +1,6 @@
 {
-  "name": "language-identifier",
-  "version": "1.0.1",
+  "name": "basic-language-detector",
+  "version": "1.0.3",
   "description": "Detects language by inspecting characters",
   "main": "index.js",
   "scripts": {
