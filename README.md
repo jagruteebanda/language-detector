@@ -14,32 +14,46 @@ languageIdentifier.getLanguage('Hello');
 ### Examples:
 
 1. In Devanagari:
-> node index.js जागृती
-> Hindi | Marathi | Sanskrit | Devanagari
+```
+$ node index.js जागृती
+Hindi | Marathi | Sanskrit | Devanagari
+```
 
 2. In English:
-> node index.js "Hello World"
-> English | Spanish | Basic Latin
+```
+$ node index.js "Hello World"
+English | Spanish | Basic Latin
+```
 
 3. In Gujarati:
-> node index.js જાગૃતી
-> Gujarati
+```
+$ node index.js જાગૃતી
+Gujarati
+```
 
 4. In Malayalam:
-> node index.js ജാഗ്രത
-> Malayalam
+```
+$ node index.js ജാഗ്രത
+Malayalam
+```
 
 5. In Japanese:
-> node index.js じゃgるてえ
-> Japanese | Hiragana
+```
+$ node index.js じゃgるてえ
+Japanese | Hiragana
+```
 
 6. In Hebrew:
-> node index.js ונביאים 
-> Hebrew
+```
+$ node index.js ונביאים 
+Hebrew
+```
 
 7. In Arabic:
-> node index.js ثقففغب
-> Arabic
+```
+$ node index.js ثقففغب
+Arabic
+```
 
 ### Supported Languages
 
