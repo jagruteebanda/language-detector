@@ -1,7 +1,7 @@
-#language-detector
+# language-detector
 To detect language by inspecting characters in text input.
 
-###INSTALLATION:
+### INSTALLATION:
 
 1. npm install basic-language-detector
 2. Code Snippet:
@@ -11,86 +11,84 @@ const language = basicLangDetector.getLanguage('Hello');
 console.log("Mmm.. looks like you used ", language);
 ```
 
-###USAGE EXAMPLES:
+### USAGE EXAMPLES:
 
-In Devanagari:
+* In Devanagari:
 ```
 node index.js जागृती
 Hindi | Marathi | Sanskrit | Devanagari
 ```
 
-In English:
+* In English:
 ```
 node index.js Jagrutee
 English | Spanish | Basic Latin
 ```
 
-In Gujarati:
+* In Gujarati:
 ```
 node index.js જાગૃતી
 Gujarati
 ```
 
-In Tamil:
+* In Tamil:
 ```
 node index.js ஜஃருடீ
 Tamil
 ```
 
-In Telugu:
+* In Telugu:
 ```
 node index.js జాగ్రుతే
 Telugu
 ```
 
-In Malayalam:
+* In Malayalam:
 ```
 node index.js ജാഗ്രത
 Malayalam
 ```
 
-In Japanese:
+* In Japanese:
 ```
 node index.js じゃgるてえ
 Japanese | Hiragana
 ```
 
-In Hebrew:
+* In Hebrew:
 ```
 node index.js ונביאים  
 Hebrew
 ```
 
-In Arabic:
+* In Arabic:
 ```
 node index.js ثقففغب
 Arabic
 ```
 
-In Bengali:
+* In Bengali:
 ```
 node index.js কখগঘঘঘঘ
 Bengali
 ```
 
-###SUPPORTED LANGUAGES:
+### SUPPORTED LANGUAGES:
 
-```
-English | Spanish | French (Basic Latin)
-Hindi | Marathi | Sanskrit (Devanagari)
-Malayalam
-Tamil
-Telugu
-Gujarati
-Hebrew
-Japanese (Hiragana)
-Armenian
-Arabic
-Syriac
-Bengali
-Oriya
-Kannada
-Myanmar
-Georgian
-Cherokee and many more..
-```
+* English | Spanish | French (Basic Latin)
+* Hindi | Marathi | Sanskrit (Devanagari)
+* Malayalam
+* Tamil
+* Telugu
+* Gujarati
+* Hebrew
+* Japanese (Hiragana)
+* Armenian
+* Arabic
+* Syriac
+* Bengali
+* Oriya
+* Kannada
+* Myanmar
+* Georgian
+* Cherokee and many more..
