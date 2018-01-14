@@ -4,8 +4,6 @@ if (process.argv[2]) {
   if (process.argv[2].length > 0) {
     getLanguage(process.argv[2]);
   }
-} else {
-  console.log("Please enter valid text input!");
 }
 
 function getLanguage(detectText) {
@@ -57,7 +55,7 @@ function getLanguage(detectText) {
     return 0;
   });
   if (detectedLanguagesArray.length > 0) {
-    console.log(detectedLanguagesArray[0].language);
+    return detectedLanguagesArray[0].language;
   } else {
     console.log("Please enter valid text input!");
   }

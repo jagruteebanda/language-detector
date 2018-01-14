@@ -1,10 +1,10 @@
 {
   "name": "language-identifier",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Detects language by inspecting characters",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js 'Jagrutee'"
+    "test": "node index.js 'Hello World'"
   },
   "repository": {
     "type": "git",
