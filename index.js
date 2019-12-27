@@ -2,11 +2,14 @@ const unicodeMappings = require('./unicodeMappings.json');
 
 function identify(detectText) {
   const unicodeMappingsKeys = Object.keys(unicodeMappings);
-  let probability = 0;
+  let probability = 0, isMarathi = false;
   let detectedLanguagesArray = [];
   if (detectText && detectText.length > 0) {
     for (var i = 0; i < detectText.length; i++) {
       const charCode = detectText.charCodeAt(i);
+      if (charCode === 2355) {
+        isMarathi = true;
+      }
       unicodeMappingsKeys.forEach((unicodeMappingsKey) => {
         if (unicodeMappingsKey) {
           if (charCode > parseInt(`0x${unicodeMappings[unicodeMappingsKey].minUnicode}`) && charCode < parseInt(`0x${unicodeMappings[unicodeMappingsKey].maxUnicode}`)) {
@@ -49,26 +52,20 @@ function identify(detectText) {
       return 0;
     });
     if (detectedLanguagesArray.length > 0) {
-      return detectedLanguagesArray[0].language;
+      if (detectedLanguagesArray[0].language === "Hindi | Marathi | Sanskrit | Devanagari" && isMarathi) {
+        return "Marathi";
+      } else {
+        return detectedLanguagesArray[0].language;
+      }
     } else {
       console.log("Please enter valid text input!");
     }
-    // if (detectedLanguagesArray.length === 0) {
-    //   console.log('Mmm... let me think?! You used ', detectedLanguagesArray[0].language);
-    // } else if (detectedLanguagesArray.length > 0) {
-    //   console.log('Mmm...interesting! Looks like you mix languages! You may have used following languages:');
-    //   detectedLanguagesArray.forEach((obj) => {
-    //     if (obj) {
-    //       console.log(obj.language);
-    //     }
-    //   });
-    // } else {
-    //   console.log('Please enter valid input');
-    // }
   } else {
     console.log('Please input valid text.');
   }
 }
+
+console.log(identify("मला घेताना नळ पाणी"));
 
 module.exports = {
   identify

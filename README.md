@@ -1,6 +1,9 @@
 # language-identifier
 To detect language/family of language by inspecting characters in text input. The module takes text as input and identifies the best language match for the same.
 
+### Improvisation:
+* Identifies "Marathi" as a language in some cases or shows "Hindi | Marathi | Sanskrit | Devanagari" otherwise.
+
 ### Installation:
 
 * npm install language-identifier
