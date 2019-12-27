@@ -65,8 +65,6 @@ function identify(detectText) {
   }
 }
 
-console.log(identify("मला घेताना नळ पाणी"));
-
 module.exports = {
   identify
 };

@@ -26,7 +26,7 @@ Language Identified: English | Spanish | Basic Latin
 ```javascript
 const language = require('language-identifier');
 
-console.log("Language of दिवाळी is ", language.identify("दिवाळी"));
+console.log("Language of आली रे आली दिवाळी आली is ", language.identify("आली रे आली दिवाळी आली"));
 console.log("Language of नमस्कार is ", language.identify("नमस्कार"));
 console.log("Language of જાગૃતી is ", language.identify("જાગૃતી"));
 console.log("Language of ஜஃருடீ is ", language.identify("ஜஃருடீ"));
@@ -39,7 +39,7 @@ console.log("Language of কখগঘঘঘঘ is ", language.identify("কখ�
 
 * Output:
 ```
-Language of देउळ is Marathi.
+Language of आली रे आली दिवाळी आली is Marathi.
 Language of नमस्कार is Hindi | Marathi | Sanskrit | Devanagari.
 Language of જાગૃતી is Gujarati
 Language of ஜஃருட is Tamil
