@@ -26,7 +26,7 @@ Language Identified: English | Spanish | Basic Latin
 ```javascript
 const language = require('language-identifier');
 
-console.log("Language of देउळ is ", language.identify("देउळ"));
+console.log("Language of दिवाळी is ", language.identify("दिवाळी"));
 console.log("Language of नमस्कार is ", language.identify("नमस्कार"));
 console.log("Language of જાગૃતી is ", language.identify("જાગૃતી"));
 console.log("Language of ஜஃருடீ is ", language.identify("ஜஃருடீ"));
