@@ -68,8 +68,8 @@ function identify(detectText) {
     if (detectedLanguagesArray.length > 0) {
       if (detectedLanguagesArray[0].language === "Devanagari") {
         if (isMarathi) return "Marathi";
-        else if (isHindiOrSanskrit) return "Hindi or Sanskrit";
-        else return "Devanagari (Marathi or Hindi or Sanskrit)";
+        else if (isHindiOrSanskrit) return "Hindi or Sanskrit or Prakrit";
+        else return "Devanagari (Marathi | Hindi | Sanskrit | Prakrit)";
       } else {
         return detectedLanguagesArray[0].language;
       }
