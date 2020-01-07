@@ -1,8 +1,10 @@
-const unicodeMappings = require('./unicodeMappings.json');
+const unicodeMappings = require("./unicodeMappings.json");
 
 function identify(detectText) {
   const unicodeMappingsKeys = Object.keys(unicodeMappings);
-  let probability = 0, isMarathi = false;
+  let probability = 0,
+    isMarathi = false,
+    isHindiOrSanskrit = false;
   let detectedLanguagesArray = [];
   if (detectText && detectText.length > 0) {
     for (var i = 0; i < detectText.length; i++) {
@@ -10,9 +12,17 @@ function identify(detectText) {
       if (charCode === 2355) {
         isMarathi = true;
       }
-      unicodeMappingsKeys.forEach((unicodeMappingsKey) => {
+      if (charCode === 2404) {
+        isHindiOrSanskrit = true;
+      }
+      unicodeMappingsKeys.forEach(unicodeMappingsKey => {
         if (unicodeMappingsKey) {
-          if (charCode > parseInt(`0x${unicodeMappings[unicodeMappingsKey].minUnicode}`) && charCode < parseInt(`0x${unicodeMappings[unicodeMappingsKey].maxUnicode}`)) {
+          if (
+            charCode >
+              parseInt(`0x${unicodeMappings[unicodeMappingsKey].minUnicode}`) &&
+            charCode <
+              parseInt(`0x${unicodeMappings[unicodeMappingsKey].maxUnicode}`)
+          ) {
             if (i === 0) {
               detectedLanguagesArray.push({
                 id: i,
@@ -22,8 +32,11 @@ function identify(detectText) {
               });
             } else {
               let isExist = 0;
-              detectedLanguagesArray.forEach((detectedLanguage) => {
-                if (detectedLanguage.language === unicodeMappings[unicodeMappingsKey].language) {
+              detectedLanguagesArray.forEach(detectedLanguage => {
+                if (
+                  detectedLanguage.language ===
+                  unicodeMappings[unicodeMappingsKey].language
+                ) {
                   isExist = 1;
                   detectedLanguage.charIndexes.push(i);
                   detectedLanguage.score += 1;
@@ -42,7 +55,8 @@ function identify(detectText) {
         }
       });
     }
-    detectedLanguagesArray.sort((a, b) => { // sorting according to the priority
+    detectedLanguagesArray.sort((a, b) => {
+      // sorting according to the priority
       if (a.score < b.score) {
         return 1;
       }
@@ -52,8 +66,10 @@ function identify(detectText) {
       return 0;
     });
     if (detectedLanguagesArray.length > 0) {
-      if (detectedLanguagesArray[0].language === "Hindi | Marathi | Sanskrit | Devanagari" && isMarathi) {
-        return "Marathi";
+      if (detectedLanguagesArray[0].language === "Devanagari") {
+        if (isMarathi) return "Marathi";
+        else if (isHindiOrSanskrit) return "Hindi or Sanskrit";
+        else return "Devanagari (Marathi or Hindi or Sanskrit)";
       } else {
         return detectedLanguagesArray[0].language;
       }
@@ -61,7 +77,7 @@ function identify(detectText) {
       console.log("Please enter valid text input!");
     }
   } else {
-    console.log('Please input valid text.');
+    console.log("Please input valid text.");
   }
 }
 

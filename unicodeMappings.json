@@ -75,7 +75,7 @@
     "maxUnicode": "07BF"
   },
   "devanagari": {
-    "language": "Hindi | Marathi | Sanskrit | Devanagari",
+    "language": "Devanagari",
     "minUnicode": "0900",
     "maxUnicode": "097F"
   },
